@@ -13,7 +13,7 @@ task("accounts", "Prints the list of accounts", async () => {
 });
 
 task("bleep", async () => {
-  await run('deploy-full');
+  await run('erasure:deploy-full');
 
 })
 
@@ -22,5 +22,8 @@ module.exports = {
     sources: './node_modules/erasure-protocol/contracts'
   },
   networks: {
+    develop: {
+      url: 'http://127.0.0.1:8545'
+    }
   }
 };

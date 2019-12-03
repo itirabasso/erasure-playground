@@ -10,13 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "@nomiclabs/buidler": "^1.0.1",
-    "buidler-erasure": "file:../buidler-erasure"
+    "@nomiclabs/buidler-ganache": "^1.0.1",
+    "buidler-erasure": "file:../buidler-erasure",
+    "erasure-protocol": "github:erasureprotocol/erasure-protocol#master"
   },
   "devDependencies": {
     "@nomiclabs/buidler-ethers": "^1.0.1",
     "@nomiclabs/buidler-truffle5": "^1.0.1",
     "@nomiclabs/buidler-web3": "^1.0.1",
-    "erasure-protocol": "github:erasureprotocol/erasure-protocol#master",
     "web3": "^1.2.2"
   }
 }

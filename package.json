@@ -9,7 +9,7 @@
   "author": "itirabasso",
   "license": "ISC",
   "dependencies": {
-    "@nomiclabs/buidler": "^1.0.1",
+    "@nomiclabs/buidler": "file:../buidler",
     "@nomiclabs/buidler-ganache": "^1.0.1",
     "buidler-erasure": "file:../buidler-erasure",
     "erasure-protocol": "github:erasureprotocol/erasure-protocol#master"
